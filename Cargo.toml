@@ -1,0 +1,14 @@
+[package]
+name = "libblockchain"
+version = "0.1.2"
+description = "A Blockchain implementation"
+authors = ["Doublify Technologies <opensource@doublify.io>"]
+categories = ["algorithms", "science"]
+homepage = "https://github.com/doublify/libblockchain"
+keywords = ["blockchain"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/doublify/libblockchain"
+
+[dependencies]
+chrono = "0.4.0"
