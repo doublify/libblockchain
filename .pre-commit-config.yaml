@@ -1,20 +1,16 @@
 repos:
 -   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: v1.1.1
+    rev: v1.2.3
     hooks:
-    -   id: check-added-large-files
     -   id: check-byte-order-marker
     -   id: check-case-conflict
-    -   id: check-executables-have-shebangs
     -   id: check-merge-conflict
     -   id: check-symlinks
-    -   id: check-vcs-permalinks
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: mixed-line-ending
-    -   id: sort-simple-yaml
     -   id: trailing-whitespace
 -   repo: git://github.com/doublify/pre-commit-rust
-    sha: 0b6a8f0d3be6560d04d4e22765afe6679c12c9a7
+    rev: d00f8d4c0dfa5c25f61371f19c6762e3b1d93258
     hooks:
     -   id: fmt
