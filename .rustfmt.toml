@@ -1,6 +1,0 @@
-array_layout = "Block"
-control_style = "Rfc"
-fn_args_layout = "Block"
-fn_call_style = "Block"
-generics_indent = "Block"
-where_style = "Rfc"
